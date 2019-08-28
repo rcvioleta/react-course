@@ -1,0 +1,32 @@
+.Machine {
+	width: 50%;
+	margin: 2rem auto;
+	border: 5px solid #504e4e;
+	border-radius: 5px;
+}
+
+.Machine-box {
+	padding: 1rem;
+	margin: 0;
+	display: flex;
+}
+
+.Machine-box > div {
+	flex-basis: 100%;
+	border: 1px solid #5242b9;
+	margin: .5rem;
+	padding: .5rem;
+	background-color: slateblue;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.Machine-winner {
+	background-color: #4daa4d;
+	color: #fff;
+}
+
+.Machine-losser {
+	background-color: #c96363;
+	color: #fff;
+}
